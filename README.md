@@ -2,6 +2,7 @@
 Parses all the HTML files in the "Html" folder utilizing JSON and indexes terms, associating them with their document
 
 hw3.py will take in the json repository path, parse all the html files included, and map words to their respective document while counting their frequency. Example of frequency distribution:
+
         >>> print(fdist1)
         <FreqDist with 19317 samples and 260819 outcomes>
         >>> fdist1.most_common(50)
